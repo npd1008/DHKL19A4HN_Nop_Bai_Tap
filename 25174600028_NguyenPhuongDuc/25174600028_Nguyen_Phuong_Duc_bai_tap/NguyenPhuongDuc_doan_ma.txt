@@ -1,0 +1,110 @@
+    1  git config-l
+    2  mkdir"EXL"
+    4  touch
+    5  touch"myfile.txt"
+    6  mkdir EX5
+    7  cd EX5
+    8  git config --global
+    9  git config -list
+   10  cd Documents/Projects
+   11  git clone https://github.com/npd1008/25174600028_Nguyen_Phuong_Duc.git
+   12  cd Documents
+   13  cd Documents/Projects
+   14  git clone https://github.com/npd1008/25174600028_Nguyen_Phuong_Duc.git
+   15  cd 25174600028_Nguyen_Phuong_Duc
+   39  git config --global user.email "npduc.25174600028@sv.uneti.edu.vn"
+   40  git config --global user.name "npd1008"
+   32  git clone https://github.com/npd1008/25174600028_Nguyen_Phuong_Duc_-bai_tap.git
+   33  git init
+   34  git status
+   37  git add .
+   38  git commit -m"bài 2"
+   42  git checkout -b branch_1 main
+   43  echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit." > text_branch_1.txt
+   44  git checkout main
+   45  git checkout -b branch_2 main
+   46  echo "Praesent ullamcorper orci eu erat placerat sodales." > text_branch_2.txt
+   47  git checkout main
+   48  git checkout -b branch_3 main
+   49  echo "Integer sit amet nisi aliquam, tempor libero quis, cursus erat." > text_branch_3.txt
+   50  git checkout main
+   51  git checkout -b branch_4 main
+   52  echo "Cras ac mi nec nisi porta ultrices sed non ante." > text_branch_4.txt
+   53  git checkout main
+   54  git add .
+   55  git commit -m"bai 3"
+   56  git remote add origin https://github.com/npd1008/25174600028_Nguyen_Phuong_Duc_-bai_tap.git
+   57  git remote add origin https://github.com/npd1008/25174600028_Nguyen_Phuong_Duc_-bai_tap.git
+   58  git push -u origin main
+   59  git remote add origin https://github.com/npd1008/25174600028_Nguyen_Phuong_Duc_-bai_tap.git
+   60  git remote add origin https://github.com/npd1008/25174600028_Nguyen_Phuong_Duc_-bai_tap.git
+   61  git push -u origin main
+   62  git checkout branch_1
+   63  git push origin branch_1
+   64  git push origin branch_1
+   65  echo "Cras ac mi nec nisi porta ultrices sed non ante" > text_branch_5.txt
+   66  git push origin branch_1
+   67  git checkout branch_2
+   68  git push origin branch_2
+   69  git checkout branch_3
+   70  git push origin branch_3
+   71  git checkout branch_4
+   72  git push origin branch_4
+   73  git checkout main
+   74  git branch --list
+   75  git branch -d branch_4
+   76  git branch --list
+   77  git branch -r
+   78  git pull
+   79  mkdir main_folder
+   80  echo "This is file 1 in main_folder" > main_folder/main_txt_1.txt
+   81  echo "This is file 2 in main_folder" > main_folder/main_txt_2.txt
+   82  echo "This is file 3 in main_folder" > main_folder/main_txt_3.txt
+   83  git add .
+   84  git commit -m "bai 6"
+   85  git push origin main
+   86  git pull origin main
+   87  git checkout branch_1
+   88  git pull origin main
+   89  git push origin branch_1
+   90  git checkout branch_2
+   91  git pull origin main
+   92  git push origin branch_2
+   93  git checkout branch_3
+   94  git pull origin main
+   95  git push origin branch_3
+   96  git checkout branch_4
+   97  git pull origin main
+   98  git push origin branch_4
+   99  git checkout branch_1
+  100  git checkout -b branch_5 branch_1
+  101  echo "Etiam malesuada felis nulla, ac porta dui sollicitudin eget. Mauris hendrerit non metus eget pellentesque. Etiam ornare ante at pretium hendrerit. Proin molestie accumsan sapien, ac finibus libero lobortis quis. Praesent ac commodo eros. Nullam malesuada v el dui nec feugiat. Cras justo ipsum, scelerisque et elit vitae, porttitor tristique turpis. Nam ut hendrerit est. Nulla sed tincidunt nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque vitae egestas lacus. Phasellus turpis ante, euismod quis pellentesque et, pharetra id ligula. Vestibulum mattis sem ac ligula auctor viverra. Phasellus dignissim mollis leo, vitae tristique enim." > text_branch_1.txt
+  102  git add text_branch_1.txt
+  103  git commit -m "Update content of text_branch_1.txt in branch_5"
+  104  git push -u origin branch_5
+  105  git checkout branch_1
+  106  git push origin branch_1
+  107  git branch -d branch_5
+  108  git branch --list
+  109  git branch -r
+  110  git push origin --delete branch_5
+  111  git checkout main
+  112  git pull origin main
+  113  git merge branch_1
+  114  git merge branch_2
+  115  git merge branch_3
+  116  git merge branch_4
+  117  git push origin main
+  118  ls -R
+  119  history
+  120  git branch -d branch_2
+  121  git branch -d branch_3
+  122  git branch -d branch_4
+  123  git push origin --delete branch_2
+  124  git push origin --delete branch_3
+  125  git push origin --delete branch_4
+  126  git checkout branch_1
+  127  git pull origin main
+  128  git push origin branch_1
+  129  git checkout main
+  130  history
